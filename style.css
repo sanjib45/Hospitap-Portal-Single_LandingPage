@@ -1,0 +1,409 @@
+/* CSS Document */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+h4 {
+    color: rgb(64, 135, 163);
+}
+
+.background {
+    background-color: rgb(238, 238, 238) !important;
+}
+
+.fav p a {
+    color: rgb(83, 84, 85);
+}
+
+.fav2 p a {
+    color: rgb(83, 84, 85);
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0rem 0rem;
+}
+
+.top {
+    background:url(img/hospital2.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.diagn {
+    margin-top: 160px;
+}
+
+.provide button {
+
+    background-color: #909de6;
+    border: 1px solid white;
+    transition: 0.5s;
+    font-size: 12px;
+    color: aliceblue;
+}
+.MEDSERVICE{
+    background-color: #f8f9fb;
+}
+
+.Oppen {
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: -2px 0px 10px 0px grey;
+    padding: 30px;
+    color: rgb(22, 55, 73);
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.left-col {
+    width: 30%;
+    float: left;
+    padding: 10px 5px 20px;
+}
+
+.center-col {
+    width: 30%;
+    float: right;
+    padding: 10px 40px;
+}
+
+.right-col {
+    width: 30%;
+    float: right;
+    padding: 20px;
+}
+
+.left-col h3 {
+    padding: 10px;
+}
+
+.tables-Td {
+    display: table-cell;
+    border-bottom: 1px dotted gray;
+    font-size: 13px;
+}
+
+.tables1-Td {
+    display: table-cell;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px dotted gray;
+    padding-left: 20px;
+}
+
+.tables2-Td {
+    display: table-cell;
+    font-size: 13px;
+    padding: 3px 20px 10px;
+    border-bottom: 1px dotted gray;
+}
+
+.health {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.health1 img {
+    height: 250px;
+    width: 337px;
+}
+
+.Doctor {
+
+    margin-top: 180px;
+    margin-bottom: 100px;
+
+}
+
+.BEST {
+    margin-top: 20px;
+}
+
+.medical {
+    background-color:#869495;
+}
+
+.well {
+    margin-top: 53px;
+}
+
+.diagnostic {
+    margin-top: 50px;
+}
+
+.qualified {
+    background-color: rgb(81, 150, 190);
+    margin-top: 50px;
+}
+.Total{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+
+.healh {
+    height: 250px;
+    width: 400px;
+}
+
+.medical {
+    background-color: #849293;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.medical1 {
+    margin-top: 60px;
+    margin-left: 200px;
+
+}
+
+.medical1 h4 {
+    margin: 30px;
+
+    color: rgb(255, 255, 255);
+}
+
+.medical1 button {
+    border: 1px solid white;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.medical1 button:hover {
+    color: rgb(205, 225, 225);
+    background-color: rgb(10, 54, 62);
+    border: 1px solid white;
+}
+
+
+
+.medical1 p {
+    color: rgb(223, 222, 222);
+    margin-left: 30px;
+
+}
+
+.Meet {
+    margin-top: 20px;
+}
+.diagnostic{
+    background-color: #faf9f75c;
+}
+.table {
+    display: table;
+}
+
+.table-Tr {
+    display: inline;
+}
+.Appoinment{
+    margin-top: 177px;
+}
+.Appoinment button {
+    border: 1px solid white;
+    background-color: rgb(22, 86, 160);
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 5px 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.Appoinment button:hover {
+    border: 1px solid white;
+    background-color: blue;
+    color: rgb(241, 232, 232);
+    padding: 5px 20px;
+    margin-top: 30px;
+}
+.Appoinment h5{
+    color: rgb(19, 64, 163);
+}
+.Appoinment h2{
+    color:rgb(5, 5, 99);
+    font-size: 50px;
+    font-weight: 600px;
+}
+.Appoinment h4{
+    color:aqua;
+}
+.Appoinment p{
+    padding-right: 50px;
+}
+
+.Clinic {
+    background-color: rgb(97 170 198);
+    
+    padding: 20px 30px;
+}
+
+
+.Clinic1 img {
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+
+}
+
+.Clinic1 h3 {
+    margin-top: 10px;
+    color: white;
+
+
+
+}
+
+.Clinic1 p {
+    margin: 0px 0px 0px;
+    color: rgb(245, 245, 245);
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.Clinic1 button {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(73 174 205);
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 5px 20px;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+
+.Oppening {
+    margin-bottom: 91px;
+    margin-top: 64px;
+}
+
+.table-Td {
+    display: table-cell;
+}
+
+.Clinic1 button:hover {
+
+    background-color: rgb(33, 14, 119);
+    border: 1px solid rgb(52, 28, 161);
+    color: rgb(241, 232, 232);
+    padding: 5px 20px;
+    margin-top: 15px;
+
+}
+
+.footer {
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+
+.footer1 {
+    padding: 20px 40px;
+}
+
+
+.footer1 h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer1 p {
+    margin: 5px 0px;
+    font-size: 12px;
+}
+
+.footer1 h3 {
+    color: rgb(19, 158, 186);
+    font-weight: bold;
+}
+
+.icon img {
+    height: 35px;
+    width: 150px;
+}
+
+.south {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.south p {
+    font-size: 12px;
+    padding-bottom: 100px;
+}
+
+
+#button {
+    display: inline-block;
+    background-color: #223a7e;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: rgb(54, 43, 209);
+}
+
+#button:active {
+    background-color: rgb(34, 119, 175);
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.QUALIFIED {
+    margin-top: 150px;
+}
+
+.Group {
+    background-color: #29808540;
+    
+ margin-bottom: 76px;
+    margin-top: 76px;
+}

@@ -1,0 +1,842 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+b{
+    color: rgb(56, 88, 99);
+}
+
+h1{
+    color: rgb(247, 251, 251);
+}
+
+h2{
+    color:  rgb(26, 85, 79);
+}
+
+h3{
+    color:  rgb(26, 96, 88);
+    font-size: 20px;
+}
+
+h4{
+    color:  rgb(24, 63, 62);
+}
+
+h5{
+    color:  rgb(21, 154, 169);
+}
+
+h6{
+    color:  rgb(38, 93, 100);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+
+.fav a {
+    color: #757575;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.fav a:hover{
+    color: black!important;
+}
+
+.fav2 a {
+    color: #757575;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.fav2 a:hover{
+    color: black!important;
+}
+
+
+
+/*------------------navbar------------------------*/
+.fav{
+    margin-top: 5px;
+}
+.fav span{
+    margin: 0px 10px;
+    font-size: 13px;
+    color: rgb(87, 87, 87);
+}
+
+.bg-dark {
+    background-color: #e2e2e2!important;
+}
+
+.fav2 p{
+    margin: 0px 10px;
+}
+
+
+
+.navbar-item a{
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text-dark{
+    color: rgb(132, 132, 132)!important;
+}
+
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+     padding: 0rem 0rem;
+}
+
+
+
+
+/*------------------------main headerset---------*/
+
+.headerset{
+    background-image: url(./../../ASSET/image/hospital23.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+
+.header{
+    margin-top: 200px;
+}
+
+
+.header h1{
+    margin: 20px 0px;
+    
+}
+
+.header button{
+    border: 1px solid rgb(255, 255, 255);  
+    background-color:  rgb(13, 143, 178);
+    font-size: 12px;
+    
+    
+    transition: 0.5s;
+}
+
+.header button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(6, 6, 6);
+    color: black;
+   
+}
+
+.collapse button{
+    margin:  20px 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(42, 155, 175);
+    color: rgb(13, 143, 178);
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.collapse button:hover{
+    background-color:  rgb(57, 146, 161);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.header p{
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+.meeting{
+    margin-top: 100px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: -2px 0px 10px 0px grey;
+    padding: 30px;
+    color: rgb(22, 55, 73);
+}
+
+
+
+.left-col{
+    width: 30%;
+    float: left;
+    padding: 10px 5px 20px;
+}
+
+.left-col h3{
+    padding: 10px;
+}
+
+.mytable1-td{
+    display: table-cell;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(146, 145, 145);
+}
+
+.mytabl1-Td{
+    display: table-cell;
+    padding: 10px 10px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.center-col{
+    width: 30%;
+    float: right;
+    padding: 10px 40px;
+}
+
+.center-col p{
+     color: rgb(123, 121, 121);
+     font-size: 12px;
+     font-weight: 500;
+}
+
+.right-col{
+    width: 30%;
+    float: right;
+    padding: 20px;
+}
+
+.center-col button{
+    background-color:rgb(13, 143, 178);
+    border: 1px solid white;
+    font-size: 12px;
+    transition: 1s;
+}
+
+
+.center-col button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(14, 85, 97);
+    
+    color: black;
+}
+
+
+.equipment{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.imgsetting{
+    margin: 0px 0px 30px;
+}
+
+.sol{
+    margin-bottom: 100px;
+    background-color: rgb(246, 246, 246);
+  
+}
+
+.solution{
+    margin: 150px 0px 0px 80px;
+}
+
+
+
+.deperment h2{
+   
+    padding: 2px 0px 10px;
+}
+
+.deperment p{
+    
+    padding-bottom: 20px;
+   
+}
+
+.deep{
+    margin-bottom: 30px;
+    padding: 40px 20px 20px;
+}
+
+
+.tor{
+    background-color: rgb(13, 143, 178);
+    margin: 60px 0px 40px;
+   
+}
+
+
+
+.doctor {
+    margin-top: 100px;
+}
+
+.doctor h6{
+    color: rgb(240, 240, 240);
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.doctor h4{
+    color: rgb(240, 240, 240);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.doctor p{
+    color: antiquewhite;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.doctor button{
+    margin:  20px 0px;
+    background-color:rgb(13, 143, 178);
+    border: 1px solid white;
+    font-size: 12px;
+    transition: 1s;
+}
+
+.doctor button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(14, 85, 97);
+    border-radius: 5px;
+    color: black;
+}
+
+.treatment{
+    margin: 100px 0px 0px;
+    background-color: white;
+}img
+
+.trea{
+    margin: 40px 20px;
+}
+
+.counting {
+    margin: 0px 0px 10px;
+}
+
+.health{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.health-img img{
+    height: 250px;
+    width: 400px;
+}
+
+
+.diagnostic{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dia{
+    margin-top: 50px;
+}
+
+.diagnostic button{
+    margin: 0px 10px;
+    font-size: 12px;
+}
+
+.diagnostic1 ul li{
+    list-style: none;
+    padding-left: 10px;
+    color: grey;
+    font-size: 13px;
+    margin-left: 50px;
+    
+}
+
+.diagnostic1 ul li img{
+    margin-right: 10px;
+}
+
+.diagnostic1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav-tabs {
+    border: none;
+    margin-left: 200px;
+}
+
+.text-grey{
+    color: rgb(199, 199, 199);
+}
+
+.nav>li {
+    margin: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: white;
+    background-color: rgb(43, 149, 182);
+    border: 1px solid white;
+    border-radius: 5px;
+  
+}
+
+.active> .text-grey{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: white;
+    background-color: rgb(43, 149, 182);
+    border: 1px solid rgb(255, 253, 253);
+}
+
+
+.nav-tabs .nav-link{
+    color: grey;
+    font-size: 12px;
+}
+
+.medical{
+    background-color:  rgb(119, 138, 144);
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.medical1{
+    margin-top: 60px;
+    margin-left: 200px;
+   
+}
+
+.medical1 h4{
+    margin: 30px;
+    
+    color: rgb(255, 255, 255) ;
+}
+
+.medical1 button{
+    border: 1px solid white;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.medical1 button:hover{
+    color: rgb(205, 225, 225);
+    background-color: rgb(10, 54, 62);
+    border: 1px solid white;
+}
+
+
+
+.medical1 p{
+    color: rgb(223, 222, 222);
+    margin-left: 30px;
+   
+}
+
+
+.Specialists{
+    margin-top: 100px;
+}
+
+.Specialists button{
+    margin: 40px;
+    border: 1px solid white;
+    font-size: 12px;
+   
+}
+
+.Specialists button:hover{
+    color: rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(23, 19, 19);
+}
+
+
+.specialists2 h2{
+    color: rgb(26, 84, 89);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.specialists2 h5{
+    color: rgb(48, 214, 206);
+    font-size: 15px;
+}
+
+.Specialists2{
+    margin: 10px;
+
+}
+
+.title{
+  
+    color: white;
+}
+.mytable{
+    display: table;
+}
+
+.mytable-tr{
+    display: table-row;
+   
+}
+
+.mytable-td{
+    display: table-cell;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+}
+
+.mytabl-Td{
+    display: table-cell;
+    padding: 10px 10px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.quality{
+    background-color: rgb(96, 175, 244);
+    margin: 30px 0px 0px;
+}
+
+.quality1 h4{
+    margin-top: 70px;
+    color: white;
+}
+
+.quality1 h6{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.quality1 p{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.best{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.best1 h2{
+    margin: 20px 0px 10px;
+}
+
+.best1 p{
+    margin-bottom: 50px;
+}
+
+.best1 span p{
+    margin-top: 40px;
+}
+
+.best1 button{
+    border: 1px solid rgb(255, 255, 255);  
+    background-color:  rgb(13, 143, 178);
+    font-size: 12px;
+    
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+
+.best1 button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(6, 6, 6);
+    color: black;
+    
+}
+
+.table{
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 5px;
+}
+
+
+
+.table td, .table th {
+    font-size: 13px;
+   
+}
+
+.table tr td{
+    color: rgb(171, 171, 171);
+}
+
+.high{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.high1{
+    margin-left: 200px;
+    margin-top: 80px;
+   
+}
+
+.high1 h5{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.high1 h2{
+    font-size: 30px;
+    margin: 0px 0px 20px;
+}
+
+.high1 h4{
+    color: rgb(31, 162, 194);
+    font-weight: bold;
+    
+}
+
+.high1 p{
+    margin: 0px 0px 0px;
+}
+
+.high1 button{
+    border: 1px solid rgb(255, 255, 255);  
+    background-color:  rgb(13, 143, 178);
+    font-size: 12px;
+    
+    transition: 0.5s;
+    
+}
+
+.high1 button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(6, 6, 6);
+    color: black;
+    
+}
+
+.touch{
+    background-color: rgb(97 170 198);
+    margin: 50px 0px;
+    padding: 20px 30px;
+}
+
+
+.touch1 img{
+    height: 50px;
+     width: 50px;
+     margin-top: 25px;
+    
+}
+
+.touch1 h3{
+    margin-top: 10px;
+    color: white;
+    
+    
+}
+
+.touch1 p{
+    margin: 0px 0px 0px;
+    color: rgb(245, 245, 245);
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.touch1 button{
+    border: 1px solid rgb(255, 255, 255);  
+    background-color:  rgb(73 174 205);
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 5px 20px;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+
+.touch1 button:hover{
+
+background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(6, 6, 6);
+    color: black;
+    padding: 5px 20px;
+    margin-top: 30px;
+   
+}
+
+.footer{
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+
+.footer1{
+    padding: 20px 40px;
+}
+
+
+.footer1 h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer1 p{
+    margin: 5px 0px;
+    font-size: 12px;
+}
+
+.footer1 h3{
+    color: rgb(19, 158, 186);
+    font-weight: bold;
+}
+
+.icon img{
+    height: 35px;
+    width: 150px;
+}
+
+.south{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.south p{
+    font-size: 12px;
+    padding-bottom: 100px;
+}
+
+.says{
+    margin-top: 50px;
+   padding-bottom: 50px;
+    
+    background-color: rgb(197, 233, 239);
+
+}
+
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #ffffff;
+    color: rgb(41, 41, 41);
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 1px lightgray;
+}
+
+.img-text h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.img-text p{
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.img-text h6{
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+   
+
+}
+
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px;
+   
+
+
+}
+
+.img-area{
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+}
+
+.img-area img{
+    width: 100%;
+}
+
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -50px;
+   padding: 20px 0px;
+
+}
+
+.carousel-indicators li{
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 24px;
+    height: -5px;
+
+}
+
+.carousel-indicators .active{
+    background: rgb(255, 255, 255);
+}
+
+
+.say1 h2{
+    padding-top: 50px;
+    color: rgb(6, 90, 97);
+}
+
+.say1 p{
+    padding-bottom: 30px;
+}
